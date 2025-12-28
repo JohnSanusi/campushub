@@ -7,14 +7,19 @@ export default function Header() {
   return (
     <header className="sticky top-0 z-50 w-full bg-white/80 dark:bg-black/80 backdrop-blur-md border-b border-border md:hidden">
       <div className="flex items-center justify-between px-4 h-14">
-        {/* Logo */}
+        {/* Logo with Campus Badge */}
         <Link href="/" className="flex items-center gap-2">
           <div className="size-8 rounded-lg bg-primary flex items-center justify-center text-white font-bold text-lg shadow-lg shadow-primary/30">
             C
           </div>
-          <span className="font-bold text-xl tracking-tight text-foreground">
-            CampusHub
-          </span>
+          <div className="flex flex-col">
+            <span className="font-bold text-base tracking-tight text-foreground leading-none">
+              CampusHub
+            </span>
+            <span className="text-[9px] text-muted-foreground uppercase tracking-wider font-semibold">
+              Student Network
+            </span>
+          </div>
         </Link>
 
         {/* Actions */}

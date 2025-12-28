@@ -35,7 +35,7 @@ export default function ProfilePage() {
       <div className="px-4 pt-6 pb-4">
         <div className="flex justify-between items-start mb-4">
           <div className="relative">
-            <div className="w-24 h-24 rounded-2xl p-1 bg-gradient-to-tr from-primary to-purple-500">
+            <div className="w-24 h-24 rounded-2xl p-1 bg-primary">
               <img
                 src={user.avatar}
                 alt={user.name}

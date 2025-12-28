@@ -85,7 +85,7 @@ export default function Sidebar() {
         </Button>
 
         <div className="flex items-center gap-3 p-2 rounded-xl hover:bg-muted cursor-pointer transition-colors group relative">
-          <div className="w-10 h-10 rounded-full bg-gradient-to-tr from-primary to-purple-500 p-[2px]">
+          <div className="w-10 h-10 rounded-full bg-primary p-[2px]">
             <img
               src={user.avatar}
               className="rounded-full w-full h-full border-2 border-background object-cover"

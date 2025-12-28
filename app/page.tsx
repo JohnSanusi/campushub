@@ -113,10 +113,8 @@ export default function Home() {
               className="flex flex-col items-center space-y-1 min-w-[64px]"
             >
               <div
-                className={`p-[2px] rounded-full ${
-                  story.isUser
-                    ? "bg-muted"
-                    : "bg-gradient-to-tr from-yellow-400 to-purple-600"
+                className={`p-[3px] rounded-full ${
+                  story.isUser ? "bg-muted" : "bg-primary"
                 }`}
               >
                 <div className="p-[2px] bg-background rounded-full">
